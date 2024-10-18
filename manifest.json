@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Lost River Phishing: Malicious Email Scanner",
+  "description": "This extension was made by Ralph McHugh, Pratham Khanal, and Sansar Kharal. It is a phishing email scanner that scans for malicious emails.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/fishing_favicon.png" 
+  }
+}
