@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lostriverphishingbackend"
+version = "0.1.0"
+description = "FillMeInLater"
+authors = ["Ralph Liam McHugh <mchuralp@isu.edu>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Quart = "^0.19.7"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+sklearn = "^0.0.post12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
