@@ -6,7 +6,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Correcting the file path
-data = pd.read_csv('/content/spam_dataset.csv.csv')  # Double check the extension
+data = pd.read_csv('emails.csv')  # Double check the extension
 print(data.head())
 
 # Vectorizing the text data
